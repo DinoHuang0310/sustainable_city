@@ -27,14 +27,14 @@ npm run-script build
 ## data format
 
  ### data.json 規格
-  navList => 選單
-  chartdata_poll => 民調結果
-  chartdata_statistics => 硬指標排名
-  ranking => 永續城市大調查
-  media => 影片區塊
-  specialAwards => 特殊獎項
-  mayors => 首長這樣說
-  slider => 永續企業
+   navList => 選單
+   chartdata_poll => 民調結果
+   chartdata_statistics => 硬指標排名
+   ranking => 永續城市大調查
+   media => 影片區塊
+   specialAwards => 特殊獎項
+   mayors => 首長這樣說
+   slider => 永續企業
 
 ```
 {
