@@ -25,9 +25,6 @@ npm run serve
 npm run-script build
 ```
 ## data format
-
- ### data.json 規格
-
 ```
 {
     "navList": [
