@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
+<html prefix="og: http://ogp.me/ns#" lang="zh-TW">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <meta name="keywords" content="新北市, 台北市, 桃園市, 永續城市, SDGs, 永續發展, ESG, 節能, 減碳, 經濟力, 社會力, 環境力" />
+    <meta name="description" content="今周刊選擇以聯合國17項永續發展目標為基礎，加上進行民意問卷，評比台灣六都政策的積極度與透明度，最後綜合評比出「最佳永續發展城市」獎。第一名為新北市，第二名為桃園市，第三名為台北市。" />
+    <meta name="author" content="今周刊" />
+    <meta name="copyright" content=" ©2020 Business Today All rights reserved" />
+    <meta name="url" content="https://www.businesstoday.com.tw/topic/2020/sustainable_city" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="《2020永續城市》台灣首次六都大調查" />
+    <meta property="og:description" content="今周刊選擇以聯合國17項永續發展目標為基礎，加上進行民意問卷，評比台灣六都政策的積極度與透明度，最後綜合評比出「最佳永續發展城市」獎。第一名為新北市，第二名為桃園市，第三名為台北市。" />
+    <meta property="og:image" content="https://www.businesstoday.com.tw/lazyweb/project/sustainable_city/images/ogimage.png" />
+    <meta property="og:url" content="https://www.businesstoday.com.tw/topic/2020/sustainable_city" />
+
+    <link rel="icon" href="https://www.businesstoday.com.tw/lazyweb/web/img/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/3f4a972f3d.js" crossorigin="anonymous"></script>
+    <title>《2020永續城市》台灣首次六都大調查</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4950332-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-4950332-1');
+    </script>
+
+</head>
+
+<body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but 2020年永續城市-今周刊 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-  </body>
+</body>
+
 </html>
