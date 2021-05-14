@@ -30,6 +30,11 @@
             "isAnchor": true
         },
         {
+            "name": "借鏡國際",
+            "url": "#slider2",
+            "isAnchor": true
+        },
+        {
             "name": "<img src='https://www.businesstoday.com.tw/lazyweb/project/sustainable_city/images/ico-facebook.svg' alt='facebook-share' />",
             "class": "facebook-share",
             "url": "http://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2020/sustainable_city",
@@ -349,5 +354,10 @@
             "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/106598/96.jpg_1140x855.jpg"
         }
     ],
+    "slider2": [{
+        "title": "神奈川靠「市民力」 登日本最強永續城市",
+        "url": "https://pse.is/wfn9c",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/106849/102.jpg_1140x855.jpg"
+    }],
     "downloadFile": "https://www.businesstoday.com.tw/lazyweb/project/sustainable_city/download_file/sustainable_city_report.pdf"
 }

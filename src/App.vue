@@ -19,7 +19,7 @@
       title="特殊獎項"
     />
     <Mayors v-if="data" :mayors="data.mayors" />
-    <Report v-if="data" :slider="data.slider" />
+    <Report v-if="data" :slider="data.slider" :slider2="data.slider2" />
     <BtnetFooter v-if="data" :downloadFile="data.downloadFile" />
   </div>
 </template>

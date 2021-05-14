@@ -1,8 +1,12 @@
 <template>
   <div id="report" class="area" v-if="slider.length">
-    <div class="report-box">
+    <div class="report-box" v-if="slider">
       <h2>城市領航家<br>隱形冠軍企業推永續</h2>
-      <BtnetSlider :sliderData="slider" sliderName="slider" />
+      <BtnetSlider :sliderData="slider" />
+    </div>
+    <div id="slider2" class="report-box" v-if="slider2">
+      <h2>特別專題<br>借鏡國際典範城市</h2>
+      <BtnetSlider :sliderData="slider2" />
     </div>
   </div>
 </template>
@@ -16,6 +20,10 @@ export default {
   },
   props: {
     slider: {
+      type: Array,
+      required: false
+    },
+    slider2: {
       type: Array,
       required: false
     }

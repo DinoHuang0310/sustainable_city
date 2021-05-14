@@ -31,10 +31,6 @@ export default {
     sliderData: {
       type: Array,
       required: true
-    },
-    sliderName: {
-      type: String,
-      required: true
     }
   },
   components: {
